@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+    background-color: #efefef;
+    display: grid;
+    gap: 4px;
+    float: left;
+    width: 100%;
+}
+
+.container{
+    font-size: smaller;
+    display: grid;
+    gap: 7px;
+}
+
+.header{
+    width: 100%;
+    display: grid;
+    float: left;
+    background-color: #ffd438;
+    text-align: center;
+}
+
+.gambar{
+    float:left;
+    place-content: center;
+    text-align: center;
+}
+
+.header img{
+    width: 35%;
+    padding: 20px;
+}
+
+/* navigation */
+
+.menu{
+    width: 100%;
+    display: grid;
+    float: left;
+    padding: 7px;
+}
+
+.menu ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    gap: 10px;
+}
+
+.menu a{
+    margin: 10px;
+    display: block;
+    font-weight: bold;
+    color: rgb(3, 46, 138);
+    text-align: center;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.menu .myproyek a{
+    background-color: rgb(3, 46, 138);
+    color: #e6e6e6;
+}
+
+.proyekKu{
+    width: 100%;
+    margin-left:50px;
+    font-size: larger;
+    padding: 40px;
+}
+
+.proyekmu{
+    background-color: white;
+    border-radius: 10px;
+    padding: 200px;
+    width: 92%;
+    text-align: center;
+    place-content: center;
+}
+
+/*logout*/
+input[type = submit]{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(3, 46, 138);
+    border-style: none;
+    margin-bottom: 10px;
+}
